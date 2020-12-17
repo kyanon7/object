@@ -29,7 +29,7 @@ public class Screening {
         return this.sequence == sequence;
     }
 
-    public Money getMoviwFee(){
+    public Money getMovieFee(){
         return movie.getFee();
     }
 }
