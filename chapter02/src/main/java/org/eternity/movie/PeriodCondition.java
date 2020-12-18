@@ -14,9 +14,9 @@ public class PeriodCondition {
         this.endTime = endTime;
     }
 
-    public boolean isSatisfiedBy(Screening screening{
+    public boolean isSatisfiedBy(Screening screening){
         return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) &&
         startTime.compareTo(screening.getStartTime().toLocalTime()) <= 0 &&
         endTime.compareTo(screening.getStartTime().toLocalTime()) >= 0;
-    })
+    }
 }
