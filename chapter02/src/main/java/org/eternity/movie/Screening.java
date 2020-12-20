@@ -21,7 +21,7 @@ public class Screening {
         return new Reservation(customer, this, calculateFee(audienceCount), audienceCount);
     }
 
-    public LocalDateTime getSrartTime(){
+    public LocalDateTime getStartTime(){
         return whenScreened;
     }
     
