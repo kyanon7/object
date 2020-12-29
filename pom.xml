@@ -48,8 +48,8 @@
     
     <module>chapter01</module>
     <module>chapter02</module>
-    <!--<module>chapter04</module>
-        <module>chapter05</module>
+    <module>chapter04</module>
+    <!--<module>chapter05</module>
         <module>chapter06</module>
         <module>chapter08</module>
         <module>chapter09</module>
