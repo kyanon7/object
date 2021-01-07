@@ -1,6 +1,6 @@
 package org.eternity.theater;
 
-public class SequenceCondition implements DiscountCondition{
+public class SequenceCondition {
     private int sequence;
 
     public SequenceCondition(int sequence) {

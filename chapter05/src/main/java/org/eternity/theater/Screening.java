@@ -16,11 +16,15 @@ public class Screening{
         return whenScreened;
     }
 
-    public Reservation reserve(Customer customer, int audience){
-    }
+    // public Reservation reserve(Customer customer, int audience){
+    // }
 
-    public Money calculateFee(int audience){
-        return movie.calculateMovieFee(this).times(audience);
+    // public Money calculateFee(int audience){
+    //     return movie.calculateMovieFee(this).times(audience);
+    // }
+
+    public Movie getMovie() {
+        return movie;
     }
 
 }
