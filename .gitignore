@@ -5,3 +5,6 @@
 *.ipr
 *.swp
 .DS_Store
+.classpath
+.project
+.settings/
